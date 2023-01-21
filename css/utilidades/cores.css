@@ -22,6 +22,9 @@
 }
 
 /*Utilidarios de Classe*/
+.cor-b{
+  color: var(--cor-b);
+}
 
 .cor-w {
   color: var(--cor-w);
