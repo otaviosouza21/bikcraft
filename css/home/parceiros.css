@@ -48,6 +48,9 @@
     margin-bottom: 20px;
   }
 
+  .parceiros li{
+    padding: 20px;
+  }
   .parceiros-imagens{
     grid-template-columns: 1fr 1fr;
   }
