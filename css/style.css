@@ -5,6 +5,10 @@
 @import './home/tecnologia.css';
 @import './home/parceiros.css';
 @import './home/depoimento.css';
+@import './home/footer.css';
+
+
+@import './seguros/seguros.css';
 
 @import './utilidades/fontes.css';
 @import './utilidades/cores.css';
