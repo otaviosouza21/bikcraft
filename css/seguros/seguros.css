@@ -3,11 +3,19 @@
   background-color: var(--cor-c11);
 }
 
+#seguros .seguros-bg{
+  margin-bottom: -20px;
+}
+
+
 .seguros{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   align-items: center;
+}
+#seguros .seguros {
+  padding-top: 0px;
 }
 
 .seguros h2{
@@ -21,6 +29,7 @@
   grid-template-columns: 1fr auto;
   position: relative;
   margin-bottom: 80px;
+  border-radius: 4px;
 }
 
 .seguros-item h3{
