@@ -96,15 +96,72 @@ gap: 32px;
 }
 
 
+.outros {
+  padding: 40px 0;
+}
+
+.outros h2{
+  margin-bottom: 40px;
+}
+
+.outros-imagens{
+  display: flex;
+  gap: 40px;
+}
+
+.outros-imagens img{
+  margin-bottom: 20px;
+}
+
+.outros-imagens h3{
+margin-bottom: 10px;
+position: relative;
+display: flex;
+align-items: center;
+cursor: pointer;
+}
+
+.outros-imagens h3::before{
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  transition: width 0.3s;
+  margin-right: 8px;
+  }
+
+  .outros-imagens h3:hover::before{
+    width: 24px ;
+  }
+
+  .outros-imagens span{
+    margin-left: 20px;
+  }
+
+
 @media (max-width:800px){
   .bicicleta{
     grid-template-columns: 1fr;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   .bicicleta-imagens{
     grid-row: 2;
+  }
+
+  .outros {
+    padding: 20px 0;
+  }
+
+  .outros h2{
+    margin-bottom: 20px;
+  }
+
+  .outros-imagens{
+    flex-direction: column;
+    gap: 30px;
   }
 }
 
