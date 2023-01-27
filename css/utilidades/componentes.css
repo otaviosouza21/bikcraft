@@ -18,6 +18,8 @@
   font-weight: 600;
   font-family: "Poppins";
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
