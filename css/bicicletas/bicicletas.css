@@ -7,6 +7,7 @@ background-image:  linear-gradient(to right,var(--cor-w) 30%,var(--cor-c11) 30%)
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   padding: 60px 16px;
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 40px;
 
 }
 
