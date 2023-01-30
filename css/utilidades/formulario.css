@@ -1,23 +1,23 @@
-.contato-formulario {
+.contato-formulario,.form{
   border-radius: 0 5px 5px 0;
   background-color: var(--cor-w);
 }
 
-.contato-formulario form{
+.contato-formulario form,.form{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
 
-.contato-formulario form label{
+.contato-formulario form label,.form label{
 display: block;
 font: 600 1rem/1.5 'Poppins',sans-serif;
 margin-bottom: 4px;
 }
 
-.contato-formulario form input[type="text"],
-.contato-formulario form input[type="email"],
-.contato-formulario form textarea{
+.contato-formulario form input[type="text"],.form input[type="text"],
+.contato-formulario form input[type="email"],.form input[type="email"],
+.contato-formulario form ,.form textarea{
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--cor-c1);
   border: 1px solid var(--cor-c12);
@@ -27,9 +27,9 @@ margin-bottom: 4px;
   box-sizing: border-box;
 }
 
-.contato-formulario form input[type="text"]:focus,
-.contato-formulario form input[type="email"]:focus,
-.contato-formulario form textarea:focus{
+.contato-formulario form input[type="text"]:focus,.form input[type="text"]:focus,
+.contato-formulario form input[type="email"]:focus,.form input[type="email"]:focus,
+.contato-formulario form textarea:focus,.form textarea:focus{
   outline: none;
   border:solid 1px var(--cor-p1);
   background-color: var(--cor-w);
@@ -41,11 +41,11 @@ margin-bottom: 4px;
 }
 
 @media (max-width:600px){
-  .contato-formulario form{
+  .contato-formulario form,.form{
     grid-template-columns: 1fr;
   }
 
-  .form .col-2{
+  .form .col-2, .form .col-2{
     grid-column: 1;
   }
 }
