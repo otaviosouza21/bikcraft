@@ -89,7 +89,7 @@ if(alturaSectionTop<6){
 }
 
 
-//Scroll Suave
+//Scroll Suave//
 function scrollSuave() {
 
   articles.forEach((secao) => {
