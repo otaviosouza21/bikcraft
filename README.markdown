@@ -6,7 +6,7 @@
 
 
 
-![img](https://user-images.githubusercontent.com/112784103/222927441-0a7fdbf1-ae07-4681-b023-ae343a722599.png)
+![img](https://github.com/otaviosouza21/bikcraft/blob/main/img/bikcraft-demo.gif)
 #
 
 ### Acesse o site [Aqui](https://otaviosouza21.github.io/bikcraft/);
